@@ -3,8 +3,8 @@ body {
 }
 main {
   display: grid;
-  font-family: "Roboto", sans-serif;
-  grid-template-columns: repeat(auto-fill, min-content);
+  font-family: sans-serif;
+  grid-template-columns: 300px 600px;
   justify-content: center;
 }
 .cv-side-panel {
@@ -12,7 +12,7 @@ main {
   background-color: #ccc;
 }
 .cv-name {
-  font-weight: 700;
+  font-weight: bolder;
   font-size: 2.2em;
 }
 .cv-name p {
@@ -29,7 +29,7 @@ main {
   width: calc(100% + 60px);
 }
 h2 {
-  font-weight: 900;
+  font-weight: bold;
   font-size: 1.2em;
   border-bottom: 2px solid #aaa;
   margin-top: 20px;
@@ -37,7 +37,7 @@ h2 {
   padding-bottom: 5px;
 }
 strong {
-  font-weight: 700;
+  font-weight: bold;
 }
 .cv-list li{
   margin-bottom: 20px;
@@ -47,6 +47,9 @@ strong {
   grid-template-columns: auto auto;
   gap: 0;
   padding-right: 100px;
+}
+.cv-grid item {
+  margin-bottom: 3px;
 }
 .cv-main-panel {
   padding: 50px 20px 10px 20px;
