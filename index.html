@@ -5,91 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Ushakov Maksym</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <main>
+      <div class="cv-side-panel">
+        <div class="cv-name">
+          <p>Maksym</p>
+          <p class="cv-highlight">Ushakov</p>
+        </div>
+        <img class="cv-photo" src="assets/cv-photo.jpg" alt="Photo" />
+        <h2>Contact</h2>
+        <ul class="cv-list">
+          <li>
+            <strong>Adress:</strong>
+            <p>85327 Mirnohrad, Donetsk reg., Ukraine</p>
+          </li>
+          <li>
+            <strong>Phone:</strong>
+            <p><a href="tel:+380950235315">+38 (095) 023-53-15</a></p>
+          </li>
+          <li>
+            <strong>E-mail:</strong>
+            <p><a href="mailto:ushakov.m@hotmail.com">ushakov.m@hotmail.com</a></p>
+          </li>
+          <li>
+            <strong>Linkedin:</strong>
+            <p><a href="https://www.linkedin.com/in/ushakovmaksym/">www.linkedin.com/in/ushakovmaksym/</a></p>
+          </li>
+        </ul>
+        <h2>Languages</h2>
+        <div class="cv-grid">
+          <div class="item">English</div>
+          <div class="item">A2</div>
+          <div class="item">Deutch</div>
+          <div class="item">A0</div>
+          <div class="item">Russian</div>
+          <div class="item">Native</div>
+        </div>
+      </div>
+      <div class="cv-main-panel">
+        <h2>Targets</h2>
+        <p>
+          First of all is get knowledge of JavaScript and learn Angular. Next
+          step - get job in EPAM.
+        </p>
+        <h2>Skills</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Git</td>
+              <td>▰▰▰▱▱</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>▰▰▰▰▱</td>
+            </tr>
+            <tr>
+              <td>TypeScript</td>
+              <td>▰▰▰▱▱</td>
+            </tr>
+            <tr>
+              <td>Angular 10+</td>
+              <td>▰▱▱▱▱</td>
+            </tr>
+            <tr>
+              <td>MongoDB</td>
+              <td>▰▰▱▱▱</td>
+            </tr>
+            <tr>
+              <td>MSSQL</td>
+              <td>▰▰▰▰▱</td>
+            </tr>
+          </tbody>
+        </table>
 
-    <h1>Maksym Ushakov</h1>
-    <h2>Personal Info</h2>
-    <ul>
-      <li>E-mail: ushakov.m@hotmail.com</li>
-      <li>Tel. +38 (095) 023-53-15</li>
-    </ul>
+        <h2>Code Examples</h2>
+        <pre><code class="language-JS">//Square every digit in input value
+  //Input and Output is integer
+  function SquareEveryDigit(num){
+    return +num.toString()
+               .split('')
+               .reduce((acc, el) =&gt; acc + el ** 2, '')
+  }</code></pre>
 
-    <h2>Targets</h2>
-    <p>
-      First of all is get knowledge of JavaScript and learn Angular. Next step -
-      get job in EPAM.
-    </p>
+        <h2>Work Experience</h2>
 
-    <h2>Skills</h2>
-
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Score</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Git</td>
-          <td>▰▰▰▱▱</td>
-        </tr>
-        <tr>
-          <td>JavaScript</td>
-          <td>▰▰▱▱▱</td>
-        </tr>
-        <tr>
-          <td>TypeScript</td>
-          <td>▰▰▱▱▱</td>
-        </tr>
-        <tr>
-          <td>Angular 10+</td>
-          <td>▰▱▱▱▱</td>
-        </tr>
-        <tr>
-          <td>MongoDB</td>
-          <td>▰▰▱▱▱</td>
-        </tr>
-        <tr>
-          <td>MSSQL</td>
-          <td>▰▰▰▰▱</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h2>Code Examples</h2>
-    <pre><code class="language-JS">//Square every digit in input value
-//Input and Output is integer
-function SquareEveryDigit(num){
-  return +num.toString()
-             .split('')
-             .reduce((acc, el) =&gt; acc + el ** 2, '')
-}</code></pre>
-
-    <h2>Work Experience</h2>
-
-    <h2>Education</h2>
-    <ul>
-      <li><a href="https://Learn.JavaScript.ru">learn.JavaScript.ru</a></li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=nyIpDs2DJ_c"
-          >Vladilen Minin: TypeScript 2020</a
-        >
-      </li>
-      <li><a href="https://githowto.com/ru">GitHowTo.com</a></li>
-      <li>
-        <a href="https://university.mongodb.com/courses/catalog"
-          >MongoDB online university</a
-        >
-      </li>
-    </ul>
-
-    <h2>Languages</h2>
-    <ul>
-      <li>English A2</li>
-      <li>Russian Native</li>
-    </ul>
+        <h2>Education</h2>
+        <ul>
+          <li><a href="https://Learn.JavaScript.ru">learn.JavaScript.ru</a></li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=nyIpDs2DJ_c"
+              >Vladilen Minin: TypeScript 2020</a
+            >
+          </li>
+          <li><a href="https://githowto.com/ru">GitHowTo.com</a></li>
+          <li>
+            <a href="https://university.mongodb.com/courses/catalog"
+              >MongoDB online university</a
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
   </body>
 </html>
