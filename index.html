@@ -10,7 +10,9 @@
       src: https://meyerweb.com/eric/tools/css/reset/
     -->
     <link rel="stylesheet" href="css/reset.css" />
-    <!-- Then apply my own styles. -->
+    <!-- Apply js highlighter styles -->
+    <link rel="stylesheet" href="css/hl/vs.css">
+    <!-- And finally apply my own styles -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -93,7 +95,7 @@
         </table>
 
         <h2>Code Examples</h2>
-        <pre><code class="language-JS">//Square every digit in input value
+        <pre><code>//Square every digit in input value
   //Input and Output is integer
   function SquareEveryDigit(num){
     return +num.toString()
@@ -120,5 +122,7 @@
         </ul>
       </div>
     </main>
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.highlightAll();</script>    
   </body>
 </html>
