@@ -18,13 +18,15 @@
   </head>
   <body>
     <main>
-      <div class="cv-side-panel">
+      <aside class="cv-side-panel">
         <div class="cv-name">
-          <p>Maksym</p>
-          <p class="cv-highlight">Ushakov</p>
+          <h1>Maksym</h1>
+          <h1 class="cv-highlight">Ushakov</h1>
         </div>
-        <img class="cv-photo" src="assets/cv-photo.jpg" alt="Photo" />
-        <h2>Contact</h2>
+        <figure>
+          <img class="cv-photo" src="assets/cv-photo.jpg" alt="Photo" />
+        </figure>
+        <section>Contact</section>
         <ul class="cv-list">
           <li>
             <strong>Adress:</strong>
@@ -43,7 +45,7 @@
             <p><a href="https://www.linkedin.com/in/ushakovmaksym/">linkedin.com/in/ushakovmaksym/</a></p>
           </li>
         </ul>
-        <h2>Languages</h2>
+        <section>Languages</section>
         <div class="cv-grid">
           <div class="item">English</div>
           <div class="item">A2</div>
@@ -52,15 +54,15 @@
           <div class="item">Russian</div>
           <div class="item">Native</div>
         </div>
-      </div>
-      <div class="cv-main-panel">
-        <h2>Targets</h2>
+      </aside>
+      <aside class="cv-main-panel">
+        <section>Targets</section>
         <p>
           First of all is to get knowledge of JavaScript and learn Angular. Next
           step - get job in EPAM.
         </p>
-        <h2>Skills</h2>
-        <div class="cv-grid cv-skills-grid">
+        <section>Skills</section>
+        <div class="cv-grid">
           <div class="item">Git</div>
           <div class="item">▰▰▰▱▱</div>
           <div class="item">JavaScript</div>
@@ -74,7 +76,7 @@
           <div class="item">MS SQL</div>
           <div class="item">▰▰▰▰▱</div>
         </div>
-        <h2>Code Examples</h2>
+        <section>Code Examples</section>
         <pre><code>//Square every digit in input value
 //Input and Output is integer
   function SquareEveryDigit(num){
@@ -83,11 +85,11 @@
                .reduce((acc, el) =&gt; acc + el ** 2, '')
   }</code></pre>
 
-        <h2>Work Experience</h2>
+        <section>Work Experience</section>
         <ul>
           <li>This CV</li>
         </ul>
-        <h2>Education</h2>
+        <section>Education</section>
         <ul>
           <li><a href="https://Learn.JavaScript.ru">learn.JavaScript.ru</a></li>
           <li>
@@ -102,9 +104,18 @@
             >
           </li>
         </ul>
-      </div>
+      </aside>
+      <footer>
+        <figure>
+          <a href="https://rs.school/js/">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool logo" width="100">
+            <figcaption>Free courses</figcaption>        
+          </figure>
+        </a>
+        <h2 class="cv-app-year">2021</h2>
+      </footer>
     </main>
     <script src="js/highlight.pack.js"></script>
     <script>hljs.highlightAll();</script>    
-  </body>
+</body>
 </html>
