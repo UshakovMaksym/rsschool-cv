@@ -35,7 +35,7 @@ code {
   margin-top: 1rem;
   width: calc(100% + 60px);
 }
-section {
+h2 {
   font-weight: bold;
   font-size: 1.2em;
   border-bottom: 2px solid #aaa;
@@ -51,13 +51,10 @@ strong {
 }
 .cv-grid {
   display: grid;
-  /* grid-template-columns: auto auto; */
   gap: 0;
   padding-right: 100px;
   grid-template-columns: max-content auto;
   margin-left: 10px;
-}
-.cv-skills-grid {
 }
 .item {
   margin-bottom: 5px;
@@ -67,7 +64,7 @@ strong {
   padding: 50px 20px 10px 20px;
   background-color: #fafafa;
 }
-.cv-main-panel section:first-child {
+.cv-main-panel h2:first-child {
   margin-top: 0;
 }
 footer {
