@@ -7,6 +7,12 @@ main {
   grid-template-columns: 300px 600px;
   justify-content: center;
 }
+li {
+  margin-bottom: 5px;
+}
+code {
+  margin-bottom: 5px;
+}
 .cv-side-panel {
   padding: 50px 30px;
   background-color: #ccc;
@@ -48,8 +54,13 @@ strong {
   gap: 0;
   padding-right: 100px;
 }
-.cv-grid item {
-  margin-bottom: 3px;
+.cv-skills-grid {
+  grid-template-columns: max-content auto;
+  margin-left: 10px;
+}
+.item {
+  margin-bottom: 5px;
+  padding-right: 10px;
 }
 .cv-main-panel {
   padding: 50px 20px 10px 20px;
