@@ -4,7 +4,7 @@ body {
 main {
   display: grid;
   font-family: sans-serif;
-  grid-template-columns: 300px 600px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, min-content));
   justify-content: center;
 }
 li {
