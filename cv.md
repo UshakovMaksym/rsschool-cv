@@ -7,15 +7,12 @@
 First of all is get knowledge of JavaScript and learn Angular. Next step - get job in EPAM.
 
 ## Skills ##
-
-| Name | Score |
-| --- | --- |
-| Git | ▰▰▰▱▱ |
-| JavaScript | ▰▰▱▱▱ |
-| TypeScript | ▰▰▱▱▱ |
-| Angular 10+ | ▰▱▱▱▱ |
-| MongoDB | ▰▰▱▱▱ |
-| MSSQL | ▰▰▰▰▱ |
+* Git
+* JavaScript ES6+
+* TypeScript
+* Angular 10+
+* MongoDB
+* MSSQL
 
 
 ## Code Examples ##
@@ -28,6 +25,7 @@ function SquareEveryDigit(num){
              .reduce((acc, el) => acc + el * el, '')
 }
 ```
+All code you can find at my personal github page https://github.com/UshakovMaksim/
 
 ## Work Experience ##
 
