@@ -1,11 +1,14 @@
 body {
   background-color: #b7b6b2;
+  box-sizing: border-box;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background-color: #fff;
 }
 main {
-  display: grid;
+  display: flex;
   font-family: sans-serif;
-  grid-template-columns: repeat(auto-fit, minmax(240px, min-content));
-  justify-content: center;
+  margin: auto;
+  max-width: 80%;
 }
 
 li {
@@ -14,9 +17,19 @@ li {
 code {
   margin-bottom: 5px;
 }
+.dotList {
+  list-style-type: circle;
+  padding-left: 1rem;
+}
+.side-panel__wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .cv-side-panel {
-  padding: 50px 30px;
   background-color: #ccc;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 300px;
 }
 .cv-name {
   font-weight: bolder;
@@ -31,9 +44,8 @@ code {
 .cv-photo {
   height: auto;
   object-fit: cover;
-  margin-left: -30px;
   margin-top: 1rem;
-  width: calc(100% + 60px);
+  width: 100%;
 }
 h2 {
   font-weight: bold;
@@ -46,7 +58,7 @@ h2 {
 strong {
   font-weight: bold;
 }
-.cv-list li{
+.cv-list li {
   margin-bottom: 20px;
 }
 .cv-grid {
@@ -61,8 +73,14 @@ strong {
   padding-right: 10px;
 }
 .cv-main-panel {
-  padding: 50px 20px 10px 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   background-color: #fafafa;
+  width: 100%;
+}
+.main-panel__wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .cv-main-panel h2:first-child {
   margin-top: 0;
@@ -71,25 +89,8 @@ footer {
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: dimgray;
-  align-items: center;
-  grid-column: 1 / span 2;
-  grid-row: 2;
-}
-@media (max-width: 479px)
-{
-  footer {
-    grid-column: 1;
-    grid-row: 3;
-}
-}
-footer figure img {
-  display: block;
   margin: auto;
-}
-footer figcaption {
-  color: white;
-  margin-top: 5px;
-  text-align: center;
+  max-width: 80%;
 }
 .cv-app-year {
   text-align: center;
@@ -98,4 +99,34 @@ footer figcaption {
   border-top: 1px #e98340 solid;
   color: bisque;
   font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  main {
+    max-width: 100%;
+  }
+  .cv-side-panel {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 100%;
+  }
+  footer {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    flex-direction: column;
+    width: 100%;
+  }
+  .cv-side-panel {
+    width: 100%;
+  }
+  .cv-main-panel {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
 }
