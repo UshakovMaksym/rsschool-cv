@@ -4,8 +4,8 @@
 * Tel. +38 (095) 023-53-15
 
 ## Summary ##
-Around 10 years in developing Desktop application using C#, ERP 1C:Enterprise.
-Last 2 years switching to developing web application using JavaScript, TypeScript, HTML, CSS.
+Around 10 years in developing Desktop application using C#, 1C:Enterprise.
+Since 2019 I'm switching to developing web application using JavaScript, TypeScript, HTML, CSS.
 Basic knowledge in developing applications in a single page (SPAs) using various JavaScript frameworks like Angular, React.
 Good Understanding of Document Object Model (DOM) and DOM Functions.
 Experience of working on CSS Preprocessor SASS.
