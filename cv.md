@@ -20,7 +20,7 @@ Excellent communication skills, time management and Team skills with an intentio
 
 ## Technical Skills ##
 * **Web Technologies:** HTML, CSS, SASS, JSON
-* **JS Frameworks:** Angular 10+, ReactJs, Node.JS
+* **JS Frameworks:** Angular 10+, ReactJs
 * **Programming Languages:** JavaScript, TypeScript
 * **Version Control System:** GIT
 * **Operating Systems:** Windows, Mac OS, Linux
