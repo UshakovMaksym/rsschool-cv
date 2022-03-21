@@ -1,12 +1,13 @@
 # Maksim Ushakov #
 ## Personal Info ##
+* Adress: 3972, Austria, Bad Großpertholz, Lower Austria
 * E-mail: ushakov.m@hotmail.com
 * Tel. +38 (095) 023-53-15
 
 ## Summary ##
 Around 10 years in developing Desktop application using C#, 1C:Enterprise.
-Since 2019 I'm switching to developing web application using JavaScript, TypeScript, HTML, CSS.
-Basic knowledge in developing applications in a single page (SPAs) using various JavaScript frameworks like Angular, React.
+Since 2019 I've started learning how to develop web application using JavaScript, TypeScript, HTML, CSS.
+Basic knowledge in developing applications in a single page (SPAs) using JavaScript framework Angular.
 Good Understanding of Document Object Model (DOM) and DOM Functions.
 Experience of working on CSS Preprocessor SASS.
 Experience in Database Technologies including RDMBS like MS SQL and NoSQL like MongoDB.
